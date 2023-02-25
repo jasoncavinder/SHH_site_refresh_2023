@@ -1,0 +1,39 @@
+{{- $hero       := .Site.Params.hero }}
+{{- $title      := index $hero "title" }}
+{{- $subtitles  := index $hero "subtitles" }}
+{{- $body       := index $hero "body" }}
+{{- $buttons    := index $hero "button" }}
+{{- $image      := index $hero "image" }}
+<div class="hero-body">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1 landing-caption">
+        <h1 class="title is-1 is-bold is-spaced">
+          {{ $title }}
+        </h1>
+        <div class="fancy-subtitle-container" data-display-time="{{ .Site.Params.FancySubtitles.DisplayTime }}" data-transition-time=".Site.Params.FancySubtitles.TransitionTime">
+        {{ range $subtitles }}
+        <h2 class="subtitle is-5 is-muted fancy-subtitle">
+          {{ . }}
+        </h2>
+        {{ end }}
+        </div>
+        <p>
+          {{ range $buttons }}
+          <a class="button cta rounded primary-btn raised" href="{{ .link }}">
+            <i class="fa fa-solid fa-{{ .icon }}"></i>&nbsp;{{ .text }}
+          </a>
+          {{ end }}
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3 hero-logo">
+          <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+{{ $js := resources.Get "js/fancy-subtitles.js" | js.Build (dict "params" .Site.Params) }}
+{{ $js := $js | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>

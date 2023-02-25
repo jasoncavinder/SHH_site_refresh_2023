@@ -1,0 +1,18 @@
+{{- $hero        := .Site.Params.hero }}
+{{- $herorocks   := index $hero "herorocks" }}
+<div class="hero-foot mb-20">
+    <div class="container">
+        <div class="tabs is-centered hero-rocks">
+            <ul>
+                {{- range $herorocks }}
+                <li class="hero-rock rock-color-{{ .color }}">
+                    <a>
+                        <img src="{{ printf "/images/%s.svg" .image | relURL }}" alt="{{ .altText }}">
+                        <span class="icon"><i class="fa fa-solid fa-{{ .icon }}"></i></span>
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+        </div>
+    </div>
+</div>
