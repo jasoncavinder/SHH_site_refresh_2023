@@ -12,3 +12,9 @@ enableGitInfo = true
 languageCode = "en-US"
 # TODO: disable when not in dev
 enableRobotsTXT = true
+newContentEditor = "code"
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^go$','^code$']
