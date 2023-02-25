@@ -2,11 +2,12 @@
 
 _Redesigning, modernizing, and Optimizing selfhelphawaii.com using hugo._
 
-### 🏠 [Production Site - selfhelphawaii.com](http://selfhelphawaii.com)
+🏠 [Production Site - selfhelphawaii.com](http://selfhelphawaii.com)
 
-### ✨ [Staging Site - jasoncavinder.github.io/SHH_site_refresh_2023](https://jasoncavinder.github.io/SHH_site_refresh_2023)
+✨ [Staging Site - jasoncavinder.github.io/SHH_site_refresh_2023](https://jasoncavinder.github.io/SHH_site_refresh_2023)
 
 ## Todo
+
 - [\\] ~~Create~~ Update README.md
 - [\\] ~~Create~~ Update LICENSE.md
 - [ ] Finish Building the new site
@@ -17,9 +18,7 @@ _Redesigning, modernizing, and Optimizing selfhelphawaii.com using hugo._
 
 ## How to build
 
-### Local builds
-
-_Build and run locally_
+### Local builds - _Build and run locally_
 
 Requirements:
 
@@ -32,9 +31,7 @@ cd /path/to/local/files
 hugo server
 ```
 
-### Staging builds
-
-_Deploy to [Github Pages](https://jasoncavinder.github.io/website_selfhelphawaii) for preview_
+### Staging builds - _Deploy to [Github Pages](https://jasoncavinder.github.io/website_selfhelphawaii) for preview_
 
 **Method 1** - from your computer
 
