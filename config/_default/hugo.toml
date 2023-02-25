@@ -1,0 +1,14 @@
+baseURL = 'http://localhost:1313'
+title = 'Self Help Hawaii'
+copyright = "© 2023 Christopher Gettman LMFT, LLC. All rights reserved."
+
+# Allowed values: ["page", "home", "section", "taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+# disableKinds = ["taxonomy", "term"]
+
+titleCaseStyle = "AP"
+cleanDestinationDir = true
+enableEmoji = true
+enableGitInfo = true
+languageCode = "en-US"
+# TODO: disable when not in dev
+enableRobotsTXT = true

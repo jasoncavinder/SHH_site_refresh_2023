@@ -1,0 +1,297 @@
+# Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+openGraph = true
+
+# #description = "Rock Pile of Local Resources, Self Help Hawaii shares resources within and around. Help finding therapy, Mindfulness"
+# #description = "Inspired by Maslow's Hierarchy of Need, Christopher Gettman, LMFT built SHH to empower his clients and community to connect with the resources within and around. Resources include therapy, government resources, volunteer opportunities, self help tools, mindfulness classes."
+description = "Self Help Hawaii, Sharing Resources Within and Around Us. Inspired by Maslow's Hierarchy of Needs, SHH is a Rock Pile of Resources for anyone in Hawaii in need of support by reminding us of the resources -whether it's a crisis, family, teen, child issues, or personal healing and growth to individual, couples therapy, to volunteer and mindfulness opportunities. Just knowing our resources can make all the difference!"
+
+# Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+# preloader =  false
+
+phone = "808-377-6774"
+email = 'support@selfhelphawaii.com'
+
+[navbarlogo]
+    # Logo (from static/images/logos/___)
+    image = 'logos/shh_logo-wide.svg'
+    link = '/'
+    # Default width/height. Uncomment if you need to change
+    width = 132
+    height = 36
+
+[font]
+    name = "Open Sans"
+    sizes = [400, 600]
+
+[crisisbutton]
+    title = "Crisis / Suicide"
+    # Suggestions: star-of-life triangle-exclamation life-ring handshake-angle hand-holding-heart hand-holding-hand hand-holding-medical truck-medical 
+    icon = "star-of-life"
+    url = '/'
+    button = true
+
+[hero]
+    # Main hero title
+    title =  "Aloha!"
+    # Hero subtitle (optional)
+        # Converted subtitle to a list of subtitles
+        # Use with the fancy-subtitles.js script and modified hero-body.html
+    subtitles = [
+        "We all need support now and then. At S.H.H. we go at your pace to find a helpful perspective to problem solve our unique life challenges.",
+        "Our growing SHH team of selfless life coaches, therapists, spiritual and/or Christian counselors are happy to help start the problem solving process!",
+        "S.H.H. is a 501(c)(3) non-profit organization. We are a community of people who are passionate about helping others.",
+        "Call or email us today. Mahalo from Team S.H.H.!"
+    ]
+    image = 'logos/shh_logo.svg'
+    [[hero.button]]
+        icon = "phone"
+        text = "808-377-6774"
+        link = "tel:808-377-6774"
+    # [[hero.button]]
+    #     icon = "comment-sms"
+    #     text = "808-377-6774"
+    #     link = "sms:808-377-6774"
+    [[hero.button]]
+        icon = "envelope"
+        text = "support@selfhelphawaii.com"
+        link = "mailto:support@selfhelphawaii.com"
+    # Footer logos (from static/images/logos/clients/___.svg)
+    [[hero.herorocks]]
+        image = 'rock-red'
+        color = 'red'
+        altText = 'Body'
+        icon = 'person-shelter'
+    [[hero.herorocks]]
+        image = 'rock-yellow'
+        color = 'yellow'
+        altText = 'Relationships'
+        icon = 'people-group'
+    [[hero.herorocks]]
+        image = 'rock-blue'
+        color = 'blue'
+        altText = 'Mind'
+        icon = 'person-rays'
+    [[hero.herorocks]]
+        image = 'rock-purple'
+        color = 'purple'
+        altText = 'Spirit'
+        icon = 'person-praying'
+    [fancySubtitles]
+        displayTime = 4.20 # in seconds
+        transitionTime = 0.69 # in seconds
+# Customizable navbar. For a dropdown, add a "sublinks" list.
+[[navbar]]
+title = "Family & Community"
+url = '/'
+[[navbar]]
+title = "Self Help"
+url = '/'
+[[navbar]]
+title = "Mindful Network"
+url = '/'
+# [[navbar.sublinks]]
+#   title = "Dropdown item"
+#   url = '/'
+# [[navbar]]
+# title = "Log in"
+# url = '/'
+# [[navbar]]
+# title = "Sign up"
+# url = '/'
+# button = true
+
+# [sidebar]
+#   # Logo (from /images/logos/___.svg)
+#   logo = 'fresh-square'
+#   [[sidebar.sections]]
+#     title = "User"
+#     icon = "user"
+#     [[sidebar.sections.links]]
+#       text = "Profile"
+#       url = "/"
+#     [[sidebar.sections.links]]
+#       text = "Account"
+#       url = "/"
+#     [[sidebar.sections.links]]
+#       text = "Settings"
+#       url = "/"
+#   [[sidebbar.sections]]
+#     title = "Messages"
+#     icon = "envelope"
+#     [[sidebar.sections.links]]
+#       text = "Inbox"
+#       url = "/"
+#     [[sidebar.sections.links]]
+#       text = "Compose"
+#       url = "/"
+#   [[sidebbar.sections]]
+#     title = "Images"
+#     icon = "image"
+#     [[sidebar.sections.links]]
+#       text = "Library"
+#       url = "/"
+#     [[sidebar.sections.links]]
+#       text = "Upload"
+#       url = "/"
+#   [[sidebbar.sections]]
+#     title = "Settings"
+#     icon = "cog"
+#     [[sidebar.sections.links]]
+#       text = "User settings"
+#       url = "/"
+#     [[sidebar.sections.links]]
+#       text = "App settings"
+#       url = "/"
+
+[section1]
+title = "Great power comes"
+subtitle = "with great responsibility"
+[[section1.tiles]]
+    title = "App builder"
+    icon = "mouse-globe"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttontext = "Free trial"
+[[section1.tiles]]
+    title = "Cloud integration"
+    icon = "laptop-cloud"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttontext = "Get started"
+[[section1.tiles]]
+    title = "Add-ons & plugins"
+    icon = "plug-cloud"
+    text = "This is some explanatory text that is on two rows"
+    url = "/"
+    buttontext = "Get started"
+
+[section2]
+title = "You're here because you want the best"
+subtitle = "And we know it"
+[[section2.features]]
+    title = "Powerful and unified interface"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    # Icon (from /images/illustrations/icons/___.svg)
+    icon = "laptop-globe"
+[[section2.features]]
+    title = "Cross-device synchronisation"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "doc-sync"
+[[section2.features]]
+    title = "Nomad system"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "mobile-feed"
+
+[section3]
+title = "One platform"
+subtitle = "To rule them all"
+image = "illustrations/mockups/app-mockup.png"
+buttonText = "Get started"
+buttonLink = "#"
+
+[section4]
+title = "Our clients love us!"
+subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+[[section4.clients]]
+    name = "Irma Walters"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "Accountant"
+    img = 1
+[[section4.clients]]
+    name = "John Bradley"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "Financial Analyst"
+    img = 2
+[[section4.clients]]
+    name = "Gary Blackman"
+    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+    job = "HR Manager"
+    img = 3
+
+
+[section5]
+    title = "Drop us a line or two"
+    subtitle = "We'd love to hear from you"
+    buttonText = "Send Message"
+    # action = "https://formspree.io/f/<form_id>"
+    # method = "POST"
+
+# [sections]
+#     [sections.contact]
+#         title = "Contact"
+#         subtitle = "Call or email us today"
+#         showPhoneButton = true
+#         showTextButton = false
+#         showEmailButton = true
+#         showForm = false
+#         formButtonText = "Send Message"
+#         # formAction = "https://formspree.io/f/<form_id>"
+#         # method = "POST"
+
+[footer]
+    # Logo (from /images/logos/___)
+    logo = 'fresh-white-alt.svg'
+    # Social Media Title
+    socialMediaTitle = "Follow Us"
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    [[footer.socialMedia]]
+      link = "https://github.com/lucperkins/github-fresh"
+      # Icons are from Font Awesome
+      icon = "github"
+    [[footer.socialMedia]]
+      link = "https://facebook.com/#"
+      icon = "facebook"
+    [[footer.socialMedia]]
+      link = "https://twitter.com/lucperkins"
+      icon = "twitter"
+    bulmaLogo = true
+[footer.quickLinks]
+    [footer.quickLinks.column1]
+        title = "Product"
+    [[footer.quickLinks.column1.links]]
+        text = "Discover features"
+        link = "/"
+    [[footer.quickLinks.column1.links]]
+        text = "Why choose our product?"
+        link = "/"
+    [[footer.quickLinks.column1.links]]
+        text = "Compare features"
+        link = "/"
+    [[footer.quickLinks.column1.links]]
+        text = "Our roadmap"
+        link = "/"
+    [[footer.quickLinks.column1.links]]
+        text = "AGB"
+        link = "/agb"
+    [footer.quickLinks.column2]
+    title = "Docs"
+    [[footer.quickLinks.column2.links]]
+        text = "Get started"
+        link = "/"
+    [[footer.quickLinks.column2.links]]
+        text = "User Guides"
+        link = "/"
+    [[footer.quickLinks.column2.links]]
+        text = "Admin Guide"
+        link = "/"
+    [[footer.quickLinks.column2.links]]
+        text = "Developers"
+        link = "/"
+    [footer.quickLinks.column3]
+        title = "Blog"
+    [[footer.quickLinks.column3.links]]
+        text = "Latest news"
+        link = "/blog/first"
+    [[footer.quickLinks.column3.links]]
+        text = "Tech articles"
+        link = "/blog/second"
+    [footer.quickLinks.column4]
+        title = "Contact"
+    [[footer.quickLinks.column4.links]]
+        text = "Phone: +49 123 456 789"
+        link = "/"
+    [[footer.quickLinks.column4.links]]
+        text = "Email: blah@example.com"
+        link = "/"
+
+# _merge = 'deep'

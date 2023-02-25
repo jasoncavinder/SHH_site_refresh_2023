@@ -1,0 +1,3 @@
+home = ['HTML', 'AMP', 'RSS']
+page = ['HTML', 'AMP']
+section = ['HTML', 'AMP', 'RSS']

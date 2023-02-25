@@ -1,0 +1,8 @@
+  [[imports]]
+    path = 'github.com/StefMa/hugo-fresh'
+    # ignoreConfig = false
+    # ignoreImports = false
+    # disable = false
+    # noMounts = false
+    # noVendor = ''
+    disable = false

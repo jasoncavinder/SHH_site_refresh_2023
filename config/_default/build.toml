@@ -1,0 +1,3 @@
+# useResourceCacheWhen = 'fallback'           # 'fallback' | 'always' | 'never'
+writeStats = true
+noJSConfigInAssets = false
