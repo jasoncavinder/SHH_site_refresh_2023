@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ range .Data.Pages }}
+    <li>
+        {{ if ne .Params.RockColor nil }}
+        <img src="/images/rock-{{ .Params.RockColor }}.svg" alt="{{ .Params.RockColor }} rock" style="max-height: 16px;" />
+        {{ else }}
+        <i class="fa fa-solid fa-ban"></i>
+        {{ end }}
+        {{ if ne .Params.Focus nil }}
+        {{ .Params.Focus }}
+        {{ else }}
+        ___
+        {{ end }}
+        {{ if ne .Title nil }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ else }}
+        <a href="{{ .Permalink }}">Untitled</a>
+        {{ end }}
+
+    </li>
+  {{ end }}
+  <p>TODO: Edit this page via `layouts/_default/terms.html'</p>
+{{ end }}
