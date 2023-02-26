@@ -1,0 +1,5 @@
+baseURL = 'https://selfhelphawaii.com'
+title = 'Self Help Hawaii (PREVIEW)'
+
+publishDir = 'public/staging'
+enableRobotsTXT = true

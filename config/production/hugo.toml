@@ -1,2 +1,6 @@
 # googleAnalytics = ""
+baseURL = 'https://selfhelphawaii.com'
+title = 'Self Help Hawaii, LLC'
+
+publishDir = 'public/production'
 enableRobotsTXT = true

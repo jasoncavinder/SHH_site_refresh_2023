@@ -10,8 +10,7 @@ cleanDestinationDir = true
 enableEmoji = true
 enableGitInfo = true
 languageCode = "en-US"
-# TODO: disable when not in dev
-enableRobotsTXT = true
+enableRobotsTXT = false
 newContentEditor = "code"
 
 [security]
