@@ -1,17 +1,13 @@
-.hugo_build.lock
-resources/_gen/assets/sass/shh.sass_03d3db848f36796aa5f4027a12956e72.content
-resources/_gen/assets/sass/shh.sass_03d3db848f36796aa5f4027a12956e72.json
-resources/_gen/assets/sass/style.sass_11963afe37bd9bd32f80815a494eee90.content
-resources/_gen/assets/sass/style.sass_11963afe37bd9bd32f80815a494eee90.json
-resources/_gen/assets/sass/styles.sass_11963afe37bd9bd32f80815a494eee90.content
-resources/_gen/assets/sass/styles.sass_11963afe37bd9bd32f80815a494eee90.json
-resources/_gen/assets/sass/styles.sass_f859de8e5561e97ae23a6a919e1e46af.content
-resources/_gen/assets/sass/styles.sass_f859de8e5561e97ae23a6a919e1e46af.json
-resources/_gen/assets/sass/sass/hero_plus.sass_f120a3f402b106f64b18d498afd3d82e.content
-resources/_gen/assets/sass/sass/hero_plus.sass_f120a3f402b106f64b18d498afd3d82e.json
-resources/_gen/assets/sass/sass/shh.sass_03d3db848f36796aa5f4027a12956e72.content
-resources/_gen/assets/sass/sass/shh.sass_03d3db848f36796aa5f4027a12956e72.json
-resources/_gen/assets/sass/scss/styles.sass_11963afe37bd9bd32f80815a494eee90.content
-resources/_gen/assets/sass/scss/styles.sass_11963afe37bd9bd32f80815a494eee90.json
-.hintrc
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
 hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
