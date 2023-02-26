@@ -1,4 +1,4 @@
-baseURL = 'https://selfhelphawaii.com'
+baseURL = 'https://jasoncavinder.github.io/SHH_site_refresh_2023'
 title = 'Self Help Hawaii (PREVIEW)'
 
 publishDir = 'public/staging'
